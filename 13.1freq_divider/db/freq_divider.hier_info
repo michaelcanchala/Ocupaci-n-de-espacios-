@@ -1,0 +1,12 @@
+|freq_divider
+clk => ~NO_FANOUT~
+enciende_apaga => ~NO_FANOUT~
+reinicia => ~NO_FANOUT~
+C_out[0] << <VCC>
+C_out[1] << <VCC>
+C_out[2] << <GND>
+C_out[3] << <GND>
+C_out[4] << <GND>
+C_out[5] << <VCC>
+
+

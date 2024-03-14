@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1Espacio_Ocupado/Espacio_Ocupado.vhd
+source_file = 1, C:/altera/13.1Espacio_Ocupado/db/Espacio_Ocupado.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Espacio_Ocupado
+instance = comp, \alarma~output\, alarma~output, Espacio_Ocupado, 1
+instance = comp, \persona_sale~input\, persona_sale~input, Espacio_Ocupado, 1
+instance = comp, \clk~input\, clk~input, Espacio_Ocupado, 1

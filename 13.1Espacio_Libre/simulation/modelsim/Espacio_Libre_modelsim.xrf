@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/13.1Espacio_Libre/Espacio_Libre.vhd
+source_file = 1, C:/altera/13.1Espacio_Libre/db/Espacio_Libre.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Espacio_Libre
+instance = comp, \alarma~output\, alarma~output, Espacio_Libre, 1
+instance = comp, \persona_ingresa~input\, persona_ingresa~input, Espacio_Libre, 1
+instance = comp, \clk~input\, clk~input, Espacio_Libre, 1
